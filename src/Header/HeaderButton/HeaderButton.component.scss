@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  transition: 0.1s ease-in-out;
+
+  &.active {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: orange;
+
+    &.active {
+      cursor: pointer;
+      transform: scale(1.1);
+      color: orange;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: orange;
+  }
+}

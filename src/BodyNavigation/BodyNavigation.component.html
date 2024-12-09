@@ -1,0 +1,4 @@
+<h1>New</h1>
+<div class="items">
+    <app-body-nav-item *ngFor="let item of items(); let last = last" [item]="item" [isLast]="!last" />
+</div>

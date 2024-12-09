@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  color: white;
+  transition: 0.3s ease-in-out;
+
+  .content {
+
+    .heading {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .describtion {
+      font-size: smaller;
+      font-weight: 400;
+      color: gray;
+    }
+  }
+
+  .seperator {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+
+  &:hover {
+    .content {
+      cursor: pointer;
+
+      .heading {
+        color: orange;
+      }
+
+      .describtion {
+        margin: 1.5rem 0;
+      }
+    }
+  }
+}

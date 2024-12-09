@@ -1,0 +1,7 @@
+<img src="images/logo.svg" alt="">
+<nav>
+    @for(item of items(); track item){
+    <app-header-button [buttonItemContent]="item" (select)="onSelect($event)"
+        [class.active]="item == activeId"></app-header-button>
+    }
+</nav>
